@@ -64,18 +64,18 @@ logo.addEventListener("click", () => {
 // add music 
 
 
-const card = document.getElementById("musicCard");
-const sound = document.getElementById("hoverSound");
+// const card = document.getElementById("musicCard");
+// const sound = document.getElementById("hoverSound");
 
-card.addEventListener("mouseenter", () => {
-  sound.currentTime = 0;
+// card.addEventListener("mouseenter", () => {
+//   sound.currentTime = 0;
 
-  sound.play().catch((err) => {
-    console.log("Autoplay blocked:", err);
-  });
-});
+//   sound.play().catch((err) => {
+//     console.log("Autoplay blocked:", err);
+//   });
+// });
 
-card.addEventListener("mouseleave", () => {
-  sound.pause();
-  sound.currentTime = 0;
-});
+// card.addEventListener("mouseleave", () => {
+//   sound.pause();
+//   sound.currentTime = 0;
+// });
