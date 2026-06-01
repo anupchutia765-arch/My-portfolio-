@@ -45,37 +45,5 @@ introObserver.observe(introPanel);
 
 
 
-  //logo animation 
 
 
-const logo = document.querySelector(".logo");
-const navLinks = document.querySelector(".nav-links");
-
-logo.addEventListener("click", () => {
-
-  // navbar hide
-  navLinks.classList.add("hide");
-
-  // logo animation
-  logo.classList.add("animate-logo");
-
-});
-
-// add music 
-
-
-// const card = document.getElementById("musicCard");
-// const sound = document.getElementById("hoverSound");
-
-// card.addEventListener("mouseenter", () => {
-//   sound.currentTime = 0;
-
-//   sound.play().catch((err) => {
-//     console.log("Autoplay blocked:", err);
-//   });
-// });
-
-// card.addEventListener("mouseleave", () => {
-//   sound.pause();
-//   sound.currentTime = 0;
-// });
