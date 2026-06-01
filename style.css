@@ -73,17 +73,6 @@
 
 
 
-/* .logo-tag {
-  font-size: 0.72rem;
-
-  letter-spacing: 0.18em;
-
-  text-transform: uppercase;
-
-  color: #60a5fa;
-
-  opacity: 0.9;
-} */
 
 
 
@@ -120,44 +109,7 @@
     background: var(--bg);
   }
 
-/* bgvideo animation */
 
-
-/* .bg-video {
-  position: absolute;
-  inset: 0;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: 75% center;
-
-  z-index: 0;
-
-  opacity: 0;
-
-  animation: videoFade 2s ease forwards;
-}
-@keyframes videoFade {
-  from {
-    opacity: 0;
-    transform: scale(1.05);
-    filter: blur(10px);
-  }
-
-  to {
-    opacity: 0.4;
-    transform: scale(1);
-    filter: blur(0);
-  }
-} */
-
-
-
-/* .mesh-bg {
-  z-index: 1;
-} */
 
 .hero-content {
   position: relative;
